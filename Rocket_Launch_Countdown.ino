@@ -15,8 +15,18 @@
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 32 // OLED display height, in pixels
 
+
+//========================================================================
+//----------------------------Change these--------------------------------
+//SSID:
 const char* ssid = "MyAltice 465709";
+
+//WIFI Password:
 const char* password = "6071-grey-92";
+//------------------------------------------------------------------------
+//========================================================================
+
+
 const char* launchesHost = "fdo.rocketlaunch.live";
 const char* timehost = "http://worldtimeapi.org/api/ip";
 String rawLaunchData = "";
